@@ -43,6 +43,8 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
   margin: 3rem 0 0 0;
   font-family: var(--body-font);
   background-color: var(--black-color);
@@ -229,11 +231,10 @@ home__social
 }
 
 .home__img {
-  max-width: 80%;
   position : absolute ; 
   right: 0;
   bottom: 0;
-  width: 200px;
+  width: 291px;
   z-index: var(--z-normal);
 }
 
